@@ -186,6 +186,7 @@ def main():
         pygame.display.update()
         clock.tick(60)
     pygame.quit()
-
-game_intro()
-main()
+    
+if __name__ == "__main__":
+    game_intro()
+    main()
