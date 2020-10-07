@@ -1,4 +1,3 @@
-# Importing modules
 import os
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 
@@ -26,7 +25,7 @@ pygame.display.set_caption("Fruit Catcher")
 
 #IMAGES
 basket_img = pygame.image.load('basket.png')
-basket_img = pygame.transform.scale(basket_img, (80, 100))
+basket_img = pygame.transform.scale(basket_img, (100, 100))
 bg = pygame.image.load('background.jpg')
 bomb_img = pygame.image.load('bomb.png')
 bomb_img = pygame.transform.scale(bomb_img, (80, 100))
@@ -104,7 +103,7 @@ def help_page():
                 pygame.quit()
                 quit()
         window.fill(white) #help page background here
-        message_to_screen("HOW TO PLAY", 250, 200, 50)
+        message_to_screen("HOW TO PLAY🎮", 250, 200, 50)
         message_to_screen("Use left and right arrow keys to move the basket.", 250, 270, 20)
         message_to_screen("Catch as many fruits as you can,", 250, 300, 20)
         message_to_screen("but avoid the bombs!", 250, 330, 20)
