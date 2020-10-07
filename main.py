@@ -1,3 +1,4 @@
+# Importing modules
 import os
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 
@@ -25,10 +26,10 @@ pygame.display.set_caption("Fruit Catcher")
 
 #IMAGES
 basket_img = pygame.image.load('basket.png')
-basket_img = pygame.transform.scale(basket_img, (150, 100))
+basket_img = pygame.transform.scale(basket_img, (80, 100))
 bg = pygame.image.load('background.jpg')
 bomb_img = pygame.image.load('bomb.png')
-bomb_img = pygame.transform.scale(bomb_img, (100, 100))
+bomb_img = pygame.transform.scale(bomb_img, (80, 100))
 
 clock = pygame.time.Clock()
 
